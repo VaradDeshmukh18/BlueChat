@@ -6,7 +6,6 @@ import android.content.Context
 import android.content.Intent
 import android.os.Build
 
-
 class FoundDeviceReceiver(
     private val onDeviceFound: (BluetoothDevice) -> Unit
 ): BroadcastReceiver() {
